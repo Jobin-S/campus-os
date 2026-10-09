@@ -1,0 +1,551 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-error-container":"#93000a","secondary-container":"#c7c3fe","on-surface-variant":"#464555","surface-container-highest":"#d3e4fe","inverse-surface":"#213145","on-primary-container":"#dad7ff","on-tertiary":"#ffffff","surface-variant":"#d3e4fe","error":"#ba1a1a","surface-container":"#e5eeff","primary":"#3525cd","on-secondary":"#ffffff","on-secondary-fixed-variant":"#444173","tertiary-fixed-dim":"#4edea3","on-tertiary-fixed-variant":"#005236","inverse-on-surface":"#eaf1ff","on-background":"#0b1c30","surface-bright":"#f8f9ff","on-tertiary-fixed":"#002113","secondary-fixed-dim":"#c4c1fb","surface-container-high":"#dce9ff","surface-tint":"#4d44e3","primary-fixed":"#e2dfff","surface-dim":"#cbdbf5","on-primary-fixed-variant":"#3323cc","secondary":"#5b598c","on-secondary-container":"#514f81","secondary-fixed":"#e3dfff","tertiary-fixed":"#6ffbbe","surface":"#f8f9ff","background":"#f8f9ff","inverse-primary":"#c3c0ff","on-surface":"#0b1c30","surface-container-low":"#eff4ff","on-error":"#ffffff","tertiary":"#005338","outline-variant":"#c7c4d8","surface-container-lowest":"#ffffff","on-primary":"#ffffff","primary-fixed-dim":"#c3c0ff","tertiary-container":"#006e4b","error-container":"#ffdad6","on-secondary-fixed":"#181445","on-tertiary-container":"#67f4b7","primary-container":"#4f46e5","outline":"#777587","on-primary-fixed":"#0f0069"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","margin":"1rem","margin-md":"1.5rem","gutter-lg":"2rem","margin-lg":"2.5rem","gutter-md":"1.5rem","space-lg":"1.5rem","space-xl":"2rem","space-md":"1rem","gutter":"1rem","space-sm":"0.5rem"},"fontFamily":{"body-md":["Inter"],"label-md":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-xs":["Plus Jakarta Sans"],"title-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-xl":["Plus Jakarta Sans"],"stat-counter":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},"fontSize":{"body-md":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"display-lg":["3rem",{"lineHeight":"3.5rem","letterSpacing":"-0.03em","fontWeight":"800"}],"label-xs":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"700"}],"title-sm":["1rem",{"lineHeight":"1.5rem","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"headline-xl":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.025em","fontWeight":"700"}],"stat-counter":["2rem",{"lineHeight":"2.25rem","letterSpacing":"-0.03em","fontWeight":"700"}],"headline-xl-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["0.875rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"headline-md":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-lg":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(30,27,75,0.04)]"><div class="h-28 max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col justify-between pt-space-sm"><div class="flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs"><img alt="CampusOS Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsVYYffMrXhoWipSUM7fwfjA-KPxh8EEA_VvMXgsiPnc3_HPvV63Jjq0IZ6KKijUfuWtkhptsEUqfDSgwzYKC3BTCPJrDibkLOurSYndaUc5SnwCVFPSdsi--00NqGuZ2-tqGmeMR_Cf9KyNX8GgD7zqHfFhwtXkukEnubYoVQe-lMi-grpeEF3pURpYJ-Qkuj6yk3AtR0MXcpfjTETOcnfCYC8ExrToO3RAXgQRZNvp-TRcIjMew"><div class="flex flex-col"><span class="font-headline-md text-headline-md leading-none text-primary">CampusOS</span><span class="font-label-xs text-label-xs text-on-surface-variant">State University Campus</span></div></div><div class="hidden xl:flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg cursor-pointer hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-secondary text-[18px]">school</span><span class="font-label-xs text-label-xs text-on-surface">State University — Main Campus</span><span class="material-symbols-outlined text-on-surface-variant text-[16px]">expand_more</span></div></div><div class="flex-1 max-w-xl mx-space-sm hidden md:block"><div class="relative flex items-center w-full"><span class="material-symbols-outlined absolute left-space-md text-outline text-[20px] pointer-events-none">search</span><input class="w-full pl-10 pr-12 py-space-xs bg-surface-container-low rounded-full font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container outline-none transition-all shadow-[0_1px_2px_rgba(30,27,75,0.02)]" placeholder="Search assignments, events, courses, lost items... (Cmd+K)" type="text"><span class="absolute right-space-sm font-label-xs text-label-xs text-on-surface-variant bg-surface-container px-space-xs py-0.5 rounded">⌘K</span></div></div><div class="flex items-center gap-space-sm sm:gap-space-md"><button class="inline-flex items-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-md px-space-md py-space-xs rounded-lg transition-colors shadow-[0_1px_3px_rgba(30,27,75,0.04)]" type="button"><span class="material-symbols-outlined text-[18px]">add</span><span class="hidden sm:inline">New Task / Report</span></button><button class="relative p-space-xs rounded-full hover:bg-surface-container text-on-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-error text-on-error font-label-xs text-[10px]">3</span></button><div class="flex items-center gap-space-xs pl-space-xs sm:pl-space-sm"><div class="relative"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfSPENqNP9U5TwPQFhSO5XWyKgO5G6lqjQs1MJDThLQHticLyfxIjbiuNixq4y6Mv8S1JMnRC0qeIJB1P92_enHj0MuFfBbbpTIbeluP1M0Hc3W3V_POFY5CUjPMQj_k6ZLFsPyKC6YeiLf5tMjYqIJD0f5qoys80BZOgzbbea0v1TC-PKc5dXg44mqJLx0Yc1mkhXv85e8Qth5BVG4hMFr_8rQHZx5nFwSufkIy-v_Gmgbb7JNnE"><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-tertiary-fixed-dim ring-2 ring-surface-container-lowest"></span></div><div class="hidden lg:flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface leading-tight">Alex Morgan</span><span class="font-label-xs text-label-xs text-on-surface-variant">CS '26</span></div></div></div></div><div class="flex items-center justify-between gap-space-md overflow-x-auto"><nav class="flex items-center gap-space-xs py-1" data-active-classes="bg-surface-container-high text-primary font-label-md"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap" data-path="my-day" href="#">My Day</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap" data-path="assignments-and-deadlines" href="#">Assignments &amp; Deadlines</a><a aria-current="page" class="px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap bg-surface-container-high text-primary font-label-md" data-path="attendance-calculator" href="#">Attendance Calculator</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap" data-path="campus-events-hub" href="#">Campus Events Hub</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap" data-path="lost-and-found" href="#">Lost &amp; Found</a></nav><div class="hidden md:flex items-center gap-space-xs pb-1 font-label-xs text-label-xs text-on-surface-variant whitespace-nowrap"><span class="inline-flex items-center gap-1 bg-surface-container-low px-space-xs py-0.5 rounded text-on-secondary-container"><span class="material-symbols-outlined text-[14px]">event_note</span>Fall 2025 · Week 8</span><span class="inline-flex items-center gap-1 bg-surface-container-low px-space-xs py-0.5 rounded text-on-secondary-container"><span class="material-symbols-outlined text-[14px]">timer</span>Midterms in 12 days</span><span class="inline-flex items-center gap-1 bg-tertiary/10 text-tertiary px-space-xs py-0.5 rounded"><span class="material-symbols-outlined text-[14px]">check_circle</span>Health: 82%</span></div></div></div><div class="md:hidden w-full bg-surface-container-low py-1 px-margin text-center font-label-xs text-label-xs text-on-secondary-container truncate">Fall 2025 · Week 8 | Midterms in 12 days | Attendance Health: 82% overall</div></header><main class="w-full pt-28 bg-surface"><div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg py-space-md"><div class="flex flex-col w-full">
+<!-- Top Level Context / KPI Metric Banner -->
+<section class="relative w-full rounded-xl bg-surface-container-lowest p-space-md md:p-space-lg shadow-sm mb-space-lg overflow-hidden">
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-primary-container/5 blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/3 -bottom-20 w-64 h-64 rounded-full bg-tertiary-fixed/10 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-space-lg">
+<!-- Main Metric Summary Left -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-lg">
+<!-- Circular Progress Chart Graphic -->
+<div class="relative w-28 h-28 flex-shrink-0 flex items-center justify-center">
+<svg aria-hidden="true" class="w-28 h-28 -rotate-90" viewBox="0 0 100 100">
+<circle class="text-surface-container" cx="50" cy="50" fill="transparent" r="42" stroke="currentColor" stroke-width="8"></circle>
+<circle class="text-primary-container transition-all duration-700 ease-out" cx="50" cy="50" fill="transparent" id="overall-circle-track" r="42" stroke="currentColor" stroke-dasharray="263.89" stroke-dashoffset="39.58" stroke-linecap="round" stroke-width="8"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-stat-counter text-stat-counter text-primary leading-none" id="overall-percentage-display">85.0%</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider mt-0.5">Aggregate</span>
+</div>
+</div>
+<!-- Metric Details & Threshold Status -->
+<div class="flex flex-col gap-1">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-xs py-0.5 rounded-full bg-tertiary/10 text-tertiary font-label-xs text-label-xs uppercase tracking-wide">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+              Standing: Safe &amp; On Track
+            </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-error-container text-on-error-container font-label-xs text-label-xs font-semibold">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+              1 Borderline Course
+            </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Academic Attendance Engine</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Aggregated tally: <span class="font-semibold text-on-surface" id="overall-counts-text">136 attended</span> of <span class="font-semibold text-on-surface">160 sessions</span> across 5 active enrolled subjects.
+          </p>
+</div>
+</div>
+<!-- Target Config & Action Badge Right -->
+<div class="flex flex-wrap items-center gap-space-md lg:justify-end">
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-center gap-space-md shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-xs text-label-xs text-on-surface-variant">Institutional Goal</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-headline-md text-headline-md text-on-surface font-bold" id="target-threshold-badge">75.0%</span>
+</div>
+</div>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high font-label-xs text-label-xs text-primary transition-colors flex items-center gap-1" onclick="adjustThreshold()" type="button">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+<span class="">Adjust</span>
+</button>
+</div>
+<button class="inline-flex items-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-md px-space-md py-space-sm rounded-xl transition-all shadow-sm" onclick="scrollToSimulator()" type="button">
+<span class="material-symbols-outlined text-[18px]">science</span>
+<span class="">Launch Simulator</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Main Content Layout Grid: 8 cols Courses / 4 cols Simulator -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left Column: Course Cards Trackers -->
+<div class="lg:col-span-7 xl:col-span-8 flex flex-col gap-space-md">
+<!-- Section Header with Quick Insights -->
+<div class="flex items-center justify-between pb-1">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Enrolled Courses</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Real-time counts, safety cushion calculation, and session logging.</p>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-xs text-label-xs bg-surface-container-low px-space-sm py-1 rounded-lg">
+<span class="material-symbols-outlined text-[16px]">info</span>
+<span class="">Target baseline: 75%</span>
+</div>
+</div>
+<!-- Course Card 1: MATH204 -->
+<div class="relative rounded-xl bg-surface-container-lowest p-space-md md:p-space-lg shadow-sm hover:shadow-md transition-shadow" id="card-MATH204">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary-container rounded-l-xl"></div>
+<div class="flex flex-col gap-space-sm pl-1">
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-xs text-label-xs font-bold">MATH204</span>
+<h3 class="font-title-sm text-title-sm text-on-surface font-semibold">Mathematics: Linear Algebra &amp; Calculus</h3>
+</div>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-tertiary/10 text-tertiary font-label-xs text-label-xs font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+              Above Target
+            </span>
+</div>
+<!-- Progress Bar & Fractions -->
+<div class="flex flex-col gap-1.5 my-1">
+<div class="flex justify-between items-baseline font-body-sm text-body-sm">
+<span class="text-on-surface font-medium">
+<strong id="stat-attended-MATH204">32</strong> / <span id="stat-total-MATH204" class="">40</span> Sessions Conducted
+              </span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface" id="stat-pct-MATH204">80.0%</span>
+</div>
+<div class="w-full h-2.5 rounded-full bg-surface-container overflow-hidden flex">
+<div class="h-full bg-primary-container rounded-full transition-all duration-300" id="bar-MATH204" style="width: 80.0%;"></div>
+</div>
+</div>
+<!-- Cushion / Consecutive Requirement Narrative -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5">event_available</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface" id="narrative-MATH204">You can miss 2 upcoming classes and stay ≥ 75.0%!</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[13px]">Margin analysis: 32/42 = 76.2% (Safe), whereas 32/43 = 74.4% (Below target).</span>
+</div>
+</div>
+<!-- Quick Action Controls -->
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-xs text-label-xs text-on-surface-variant">Update class record:</span>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary text-on-surface font-label-xs text-label-xs transition-colors flex items-center gap-1" onclick="modifyAttendance('MATH204', 1, 1)" type="button">
+<span class="material-symbols-outlined text-[16px]">add_circle</span>
+<span class="">+ Attended</span>
+</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container hover:bg-error-container hover:text-on-error-container text-on-surface font-label-xs text-label-xs transition-colors flex items-center gap-1" onclick="modifyAttendance('MATH204', 0, 1)" type="button">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+<span class="">+ Missed</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Course Card 2: CS304 (Borderline / Alert) -->
+<div class="relative rounded-xl bg-surface-container-lowest p-space-md md:p-space-lg shadow-sm hover:shadow-md transition-shadow" id="card-CS304">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-error rounded-l-xl"></div>
+<div class="flex flex-col gap-space-sm pl-1">
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded bg-error-container text-on-error-container font-label-xs text-label-xs font-bold">CS304</span>
+<h3 class="font-title-sm text-title-sm text-on-surface font-semibold">Computer Architecture &amp; Organization</h3>
+</div>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-error-container text-on-error-container font-label-xs text-label-xs font-semibold">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+              Below Target ⚠️
+            </span>
+</div>
+<!-- Progress Bar & Fractions -->
+<div class="flex flex-col gap-1.5 my-1">
+<div class="flex justify-between items-baseline font-body-sm text-body-sm">
+<span class="text-on-surface font-medium">
+<strong id="stat-attended-CS304">22</strong> / <span id="stat-total-CS304" class="">30</span> Sessions Conducted
+              </span>
+<span class="font-headline-md text-headline-md font-bold text-error" id="stat-pct-CS304">73.3%</span>
+</div>
+<div class="w-full h-2.5 rounded-full bg-surface-container overflow-hidden flex">
+<div class="h-full bg-error rounded-full transition-all duration-300" id="bar-CS304" style="width: 73.3%;"></div>
+</div>
+</div>
+<!-- Consecutive Requirement Narrative -->
+<div class="p-space-sm rounded-lg bg-error-container/40 flex items-start gap-space-xs text-on-error-container">
+<span class="material-symbols-outlined text-error text-[20px] shrink-0 mt-0.5">priority_high</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold" id="narrative-CS304">Must attend the next 2 consecutive classes to reach 75.0%!</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[13px]">Recovery projection: 24 attended out of 32 total conducted = exactly 75.0%.</span>
+</div>
+</div>
+<!-- Quick Action Controls -->
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-xs text-label-xs text-on-surface-variant">Update class record:</span>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary text-on-surface font-label-xs text-label-xs transition-colors flex items-center gap-1" onclick="modifyAttendance('CS304', 1, 1)" type="button">
+<span class="material-symbols-outlined text-[16px]">add_circle</span>
+<span class="">+ Attended</span>
+</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container hover:bg-error-container hover:text-on-error-container text-on-surface font-label-xs text-label-xs transition-colors flex items-center gap-1" onclick="modifyAttendance('CS304', 0, 1)" type="button">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+<span class="">+ Missed</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Course Card 3: CS301 (Excellent) -->
+<div class="relative rounded-xl bg-surface-container-lowest p-space-md md:p-space-lg shadow-sm hover:shadow-md transition-shadow" id="card-CS301">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-tertiary-container rounded-l-xl"></div>
+<div class="flex flex-col gap-space-sm pl-1">
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-xs text-label-xs font-bold">CS301</span>
+<h3 class="font-title-sm text-title-sm text-on-surface font-semibold">Data Structures &amp; Algorithms</h3>
+</div>
+<span class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-tertiary/10 text-tertiary font-label-xs text-label-xs font-semibold">
+<span class="material-symbols-outlined text-[14px]">stars</span>
+              Excellent
+            </span>
+</div>
+<div class="flex flex-col gap-1.5 my-1">
+<div class="flex justify-between items-baseline font-body-sm text-body-sm">
+<span class="text-on-surface font-medium">
+<strong id="stat-attended-CS301">38</strong> / <span id="stat-total-CS301" class="">42</span> Sessions Conducted
+              </span>
+<span class="font-headline-md text-headline-md font-bold text-tertiary" id="stat-pct-CS301">90.5%</span>
+</div>
+<div class="w-full h-2.5 rounded-full bg-surface-container overflow-hidden flex">
+<div class="h-full bg-tertiary-container rounded-full transition-all duration-300" id="bar-CS301" style="width: 90.5%;"></div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5">verified_user</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface" id="narrative-CS301">High safety cushion: You can miss up to 8 classes safely!</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[13px]">Calculation: 38/50 = 76.0% (Continues safely above mandatory threshold).</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-xs text-label-xs text-on-surface-variant">Update class record:</span>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary text-on-surface font-label-xs text-label-xs transition-colors flex items-center gap-1" onclick="modifyAttendance('CS301', 1, 1)" type="button">
+<span class="material-symbols-outlined text-[16px]">add_circle</span>
+<span class="">+ Attended</span>
+</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container hover:bg-error-container hover:text-on-error-container text-on-surface font-label-xs text-label-xs transition-colors flex items-center gap-1" onclick="modifyAttendance('CS301', 0, 1)" type="button">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+<span class="">+ Missed</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Course Card 4 & 5 Compact Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- PHYS102 -->
+<div class="relative rounded-xl bg-surface-container-lowest p-space-md shadow-sm" id="card-PHYS102">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary-container rounded-l-xl"></div>
+<div class="flex flex-col gap-space-xs pl-1">
+<div class="flex items-center justify-between">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-xs text-label-xs font-bold">PHYS102</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface" id="stat-pct-PHYS102">90.0%</span>
+</div>
+<h4 class="font-title-sm text-title-sm text-on-surface font-semibold truncate">Applied Physics Laboratory</h4>
+<div class="text-on-surface-variant font-body-sm text-body-sm">
+<strong class="text-on-surface" id="stat-attended-PHYS102">18</strong> / <span id="stat-total-PHYS102" class="">20</span> attended
+            </div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden my-1">
+<div class="h-full bg-primary-container rounded-full" id="bar-PHYS102" style="width: 90.0%;"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-xs text-label-xs text-tertiary">Can miss 4 classes</span>
+<div class="flex gap-1">
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-primary" onclick="modifyAttendance('PHYS102', 1, 1)" type="button"><span class="material-symbols-outlined text-[16px]">add</span></button>
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-error" onclick="modifyAttendance('PHYS102', 0, 1)" type="button"><span class="material-symbols-outlined text-[16px]">remove</span></button>
+</div>
+</div>
+</div>
+</div>
+<!-- ENG105 -->
+<div class="relative rounded-xl bg-surface-container-lowest p-space-md shadow-sm" id="card-ENG105">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-primary-container rounded-l-xl"></div>
+<div class="flex flex-col gap-space-xs pl-1">
+<div class="flex items-center justify-between">
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-primary font-label-xs text-label-xs font-bold">ENG105</span>
+<span class="font-headline-md text-headline-md font-bold text-on-surface" id="stat-pct-ENG105">92.8%</span>
+</div>
+<h4 class="font-title-sm text-title-sm text-on-surface font-semibold truncate">Technical Communication</h4>
+<div class="text-on-surface-variant font-body-sm text-body-sm">
+<strong class="text-on-surface" id="stat-attended-ENG105">26</strong> / <span id="stat-total-ENG105" class="">28</span> attended
+            </div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden my-1">
+<div class="h-full bg-primary-container rounded-full" id="bar-ENG105" style="width: 92.8%;"></div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-xs text-label-xs text-tertiary">Can miss 6 classes</span>
+<div class="flex gap-1">
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-primary" onclick="modifyAttendance('ENG105', 1, 1)" type="button"><span class="material-symbols-outlined text-[16px]">add</span></button>
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-error" onclick="modifyAttendance('ENG105', 0, 1)" type="button"><span class="material-symbols-outlined text-[16px]">remove</span></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive "What-If" Simulator Panel (Sticky) -->
+<div class="lg:col-span-5 xl:col-span-4 sticky top-32 flex flex-col gap-space-md" id="simulator-section">
+<div class="rounded-xl bg-surface-container-lowest p-space-md md:p-space-lg shadow-sm">
+<!-- Simulator Title Banner -->
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container">
+<div class="flex items-center gap-space-xs">
+<div class="p-2 rounded-lg bg-primary-container text-on-primary">
+<span class="material-symbols-outlined text-[20px]">calculate</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface leading-tight">"What-If" Simulator</h3>
+<span class="font-label-xs text-label-xs text-on-surface-variant">Hypothetical Scenario Sandbox</span>
+</div>
+</div>
+<button class="font-label-xs text-label-xs text-primary hover:text-primary-container underline" onclick="resetSimulation()" type="button">
+            Reset
+          </button>
+</div>
+<div class="flex flex-col gap-space-md mt-space-md">
+<!-- Select Target Course -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface" for="course-selector">Target Course</label>
+<div class="relative">
+<select class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm px-space-md py-2.5 rounded-lg appearance-none cursor-pointer focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container outline-none transition-all" id="course-selector" onchange="handleCourseChange()">
+<option selected="" value="MATH204">MATH204 — Mathematics (Current: 80.0%)</option>
+<option value="CS304">CS304 — Computer Architecture (Current: 73.3%)</option>
+<option value="CS301">CS301 — Data Structures (Current: 90.5%)</option>
+<option value="PHYS102">PHYS102 — Physics Lab (Current: 90.0%)</option>
+<option value="ENG105">ENG105 — Technical Comm (Current: 92.8%)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-2.5 pointer-events-none text-on-surface-variant text-[20px]">arrow_drop_down</span>
+</div>
+</div>
+<!-- Future Classes Sliders / Steppers -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-md">
+<!-- Slider 1: Future Attend -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<label class="font-label-xs text-label-xs text-on-surface-variant flex items-center gap-1" for="attend-slider">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+                  Upcoming Classes to Attend:
+                </label>
+<span class="font-headline-md text-headline-md font-bold text-primary" id="attend-val-display">+0</span>
+</div>
+<input class="w-full accent-primary-container cursor-pointer h-2 bg-surface-container rounded-lg" id="attend-slider" max="10" min="0" oninput="runSimulation()" type="range" value="0">
+<div class="flex justify-between font-label-xs text-label-xs text-on-surface-variant">
+<span class="">+0</span>
+<span class="">+5</span>
+<span class="">+10 classes</span>
+</div>
+</div>
+<!-- Slider 2: Future Miss -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<label class="font-label-xs text-label-xs text-on-surface-variant flex items-center gap-1" for="miss-slider">
+<span class="material-symbols-outlined text-[16px] text-error">cancel</span>
+                  Upcoming Classes to Miss:
+                </label>
+<span class="font-headline-md text-headline-md font-bold text-error" id="miss-val-display">+2</span>
+</div>
+<input class="w-full accent-error cursor-pointer h-2 bg-surface-container rounded-lg" id="miss-slider" max="10" min="0" oninput="runSimulation()" type="range" value="2">
+<div class="flex justify-between font-label-xs text-label-xs text-on-surface-variant">
+<span class="">0</span>
+<span class="">+5</span>
+<span class="">+10 classes</span>
+</div>
+</div>
+</div>
+<!-- Real-time Comparison Display Sandbox Card -->
+<div class="rounded-xl bg-surface-container p-space-md flex flex-col gap-space-sm">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider">Simulation Output</span>
+<div class="grid grid-cols-2 gap-space-sm text-center">
+<div class="p-space-sm rounded-lg bg-surface-container-lowest flex flex-col">
+<span class="font-label-xs text-label-xs text-on-surface-variant">Current Record</span>
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface" id="sim-current-pct">80.0%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="sim-current-fraction">32 / 40 classes</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest flex flex-col relative overflow-hidden">
+<div class="absolute inset-0 bg-primary/5 pointer-events-none"></div>
+<span class="font-label-xs text-label-xs text-primary font-semibold">Simulated Result</span>
+<span class="font-headline-lg text-headline-lg font-bold text-tertiary" id="sim-projected-pct">76.2%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" id="sim-projected-fraction">32 / 42 classes</span>
+</div>
+</div>
+<!-- Verdict Badge -->
+<div class="mt-1 p-space-sm rounded-lg bg-tertiary/10 text-tertiary flex items-center gap-space-xs" id="sim-verdict-box">
+<span class="material-symbols-outlined text-[20px]" id="sim-verdict-icon">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold" id="sim-verdict-title">Safe: Above 75% Target</span>
+<span class="font-body-sm text-body-sm text-[12px] text-on-surface-variant leading-tight" id="sim-verdict-desc">Projected 76.2% satisfies university minimum requirement.</span>
+</div>
+</div>
+</div>
+<!-- Simulator Action Buttons -->
+<div class="flex flex-col gap-space-xs">
+<button class="w-full py-2.5 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors flex items-center justify-center gap-space-xs shadow-sm" onclick="applyPlanToast()" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+<span class="">Apply to Study Schedule</span>
+</button>
+<button class="w-full py-2 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-xs text-label-xs transition-colors" onclick="resetSimulation()" type="button">
+              Reset Parameters
+            </button>
+</div>
+</div>
+</div>
+<!-- Quick Tips Card -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0 mt-0.5">lightbulb</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Formula Breakdown</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-[13px] mt-0.5">
+            Future percentage = <code class="bg-surface-container px-1 py-0.5 rounded text-primary">(Present Attended + Future Attended) / (Total Conducted + Future Sessions)</code>.
+          </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Disclaimer Footer Note -->
+<section class="mt-space-xl p-space-md rounded-xl bg-surface-container-low text-on-surface-variant flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-outline text-[20px] shrink-0">info</span>
+<p class="font-body-sm text-body-sm leading-relaxed text-[13px]">
+<strong class="font-medium text-on-surface">Disclaimer:</strong> Personal planning and simulation sandbox based solely on locally entered records. Official academic eligibility, debarment criteria, and medical leave dispensations are subject to formal University Registrar and Dean of Academic Affairs policies.
+    </p>
+</section>
+<!-- Interactive JavaScript Engine -->
+<script>
+    // State management for courses
+    const courseData = {
+      MATH204: { name: 'Mathematics', attended: 32, total: 40 },
+      CS304: { name: 'Computer Architecture', attended: 22, total: 30 },
+      CS301: { name: 'Data Structures', attended: 38, total: 42 },
+      PHYS102: { name: 'Physics Lab', attended: 18, total: 20 },
+      ENG105: { name: 'Technical Comm', attended: 26, total: 28 }
+    };
+
+    let targetThreshold = 75.0;
+
+    function recalculateOverall() {
+      let totalAtt = 0;
+      let totalSess = 0;
+      for (const id in courseData) {
+        totalAtt += courseData[id].attended;
+        totalSess += courseData[id].total;
+      }
+      const pct = (totalAtt / totalSess) * 100;
+      const pctDisplay = pct.toFixed(1) + '%';
+      
+      const pctElem = document.getElementById('overall-percentage-display');
+      if (pctElem) pctElem.textContent = pctDisplay;
+
+      const countsElem = document.getElementById('overall-counts-text');
+      if (countsElem) countsElem.textContent = `${totalAtt} attended`;
+
+      // Update circular SVG track (circumference = 263.89)
+      const circleTrack = document.getElementById('overall-circle-track');
+      if (circleTrack) {
+        const offset = 263.89 - (263.89 * (pct / 100));
+        circleTrack.style.strokeDashoffset = offset;
+      }
+    }
+
+    function modifyAttendance(courseId, addAtt, addTot) {
+      if (!courseData[courseId]) return;
+      courseData[courseId].attended += addAtt;
+      courseData[courseId].total += addTot;
+
+      // Update card UI
+      const course = courseData[courseId];
+      const pct = ((course.attended / course.total) * 100).toFixed(1);
+
+      const attElem = document.getElementById(`stat-attended-${courseId}`);
+      const totElem = document.getElementById(`stat-total-${courseId}`);
+      const pctElem = document.getElementById(`stat-pct-${courseId}`);
+      const barElem = document.getElementById(`bar-${courseId}`);
+
+      if (attElem) attElem.textContent = course.attended;
+      if (totElem) totElem.textContent = course.total;
+      if (pctElem) pctElem.textContent = pct + '%';
+      if (barElem) barElem.style.width = Math.min(100, Math.max(0, pct)) + '%';
+
+      recalculateOverall();
+      runSimulation();
+    }
+
+    function handleCourseChange() {
+      runSimulation();
+    }
+
+    function runSimulation() {
+      const selector = document.getElementById('course-selector');
+      if (!selector) return;
+      const courseId = selector.value;
+      const current = courseData[courseId];
+      if (!current) return;
+
+      const attendSlider = document.getElementById('attend-slider');
+      const missSlider = document.getElementById('miss-slider');
+      const addAtt = parseInt(attendSlider.value, 10) || 0;
+      const addMiss = parseInt(missSlider.value, 10) || 0;
+
+      document.getElementById('attend-val-display').textContent = '+' + addAtt;
+      document.getElementById('miss-val-display').textContent = '+' + addMiss;
+
+      // Baseline
+      const currentPct = ((current.attended / current.total) * 100).toFixed(1);
+      document.getElementById('sim-current-pct').textContent = currentPct + '%';
+      document.getElementById('sim-current-fraction').textContent = `${current.attended} / ${current.total} classes`;
+
+      // Projected
+      const projectedAtt = current.attended + addAtt;
+      const projectedTotal = current.total + addAtt + addMiss;
+      const projectedPctVal = projectedTotal > 0 ? ((projectedAtt / projectedTotal) * 100) : 0;
+      const projectedPct = projectedPctVal.toFixed(1);
+
+      document.getElementById('sim-projected-pct').textContent = projectedPct + '%';
+      document.getElementById('sim-projected-fraction').textContent = `${projectedAtt} / ${projectedTotal} classes`;
+
+      // Verdict
+      const verdictBox = document.getElementById('sim-verdict-box');
+      const verdictIcon = document.getElementById('sim-verdict-icon');
+      const verdictTitle = document.getElementById('sim-verdict-title');
+      const verdictDesc = document.getElementById('sim-verdict-desc');
+
+      if (projectedPctVal >= targetThreshold) {
+        verdictBox.className = 'mt-1 p-space-sm rounded-lg bg-tertiary/10 text-tertiary flex items-center gap-space-xs';
+        verdictIcon.textContent = 'check_circle';
+        verdictTitle.textContent = `Safe: Above ${targetThreshold}% Target`;
+        verdictDesc.textContent = `Projected ${projectedPct}% satisfies university minimum requirement.`;
+        document.getElementById('sim-projected-pct').className = 'font-headline-lg text-headline-lg font-bold text-tertiary';
+      } else {
+        verdictBox.className = 'mt-1 p-space-sm rounded-lg bg-error-container text-on-error-container flex items-center gap-space-xs';
+        verdictIcon.textContent = 'warning';
+        verdictTitle.textContent = `Warning: Falls to ${projectedPct}% (Below ${targetThreshold}%)`;
+        verdictDesc.textContent = `Attendance shortfall risk! Would require additional sessions to recover.`;
+        document.getElementById('sim-projected-pct').className = 'font-headline-lg text-headline-lg font-bold text-error';
+      }
+    }
+
+    function resetSimulation() {
+      document.getElementById('attend-slider').value = 0;
+      document.getElementById('miss-slider').value = 0;
+      runSimulation();
+    }
+
+    function adjustThreshold() {
+      const newThreshold = prompt('Enter Institutional Minimum Attendance Percentage:', targetThreshold);
+      if (newThreshold !== null && !isNaN(parseFloat(newThreshold))) {
+        targetThreshold = parseFloat(newThreshold);
+        document.getElementById('target-threshold-badge').textContent = targetThreshold.toFixed(1) + '%';
+        runSimulation();
+      }
+    }
+
+    function scrollToSimulator() {
+      const sim = document.getElementById('simulator-section');
+      if (sim) {
+        sim.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
+    function applyPlanToast() {
+      const btn = event.currentTarget;
+      const originalText = btn.innerHTML;
+      btn.innerHTML = `<span class="material-symbols-outlined text-[18px]">done</span> Saved to Calendar Plan!`;
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+      }, 2000);
+    }
+
+    // Initialize initial simulation state
+    document.addEventListener('DOMContentLoaded', () => {
+      runSimulation();
+    });
+  </script>
+</div></div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(30,27,75,0.03)] mt-space-xl py-space-lg"><div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><div class="flex items-center gap-space-xs"><img alt="CampusOS Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsVYYffMrXhoWipSUM7fwfjA-KPxh8EEA_VvMXgsiPnc3_HPvV63Jjq0IZ6KKijUfuWtkhptsEUqfDSgwzYKC3BTCPJrDibkLOurSYndaUc5SnwCVFPSdsi--00NqGuZ2-tqGmeMR_Cf9KyNX8GgD7zqHfFhwtXkukEnubYoVQe-lMi-grpeEF3pURpYJ-Qkuj6yk3AtR0MXcpfjTETOcnfCYC8ExrToO3RAXgQRZNvp-TRcIjMew"><span class="font-label-md text-label-md text-on-surface">CampusOS</span><span class="font-body-sm text-body-sm">© 2025 State University. All rights reserved.</span></div><div class="flex items-center gap-space-lg font-label-xs text-label-xs"><a class="hover:text-primary transition-colors" href="#">Academic Calendar</a><a class="hover:text-primary transition-colors" href="#">Student Portal Support</a><a class="hover:text-primary transition-colors" href="#">Campus Safety &amp; Alerts</a></div></div></footer>
+
+</body></html>

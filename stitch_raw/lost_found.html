@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-error-container":"#93000a","secondary-container":"#c7c3fe","on-surface-variant":"#464555","surface-container-highest":"#d3e4fe","inverse-surface":"#213145","on-primary-container":"#dad7ff","on-tertiary":"#ffffff","surface-variant":"#d3e4fe","error":"#ba1a1a","surface-container":"#e5eeff","primary":"#3525cd","on-secondary":"#ffffff","on-secondary-fixed-variant":"#444173","tertiary-fixed-dim":"#4edea3","on-tertiary-fixed-variant":"#005236","inverse-on-surface":"#eaf1ff","on-background":"#0b1c30","surface-bright":"#f8f9ff","on-tertiary-fixed":"#002113","secondary-fixed-dim":"#c4c1fb","surface-container-high":"#dce9ff","surface-tint":"#4d44e3","primary-fixed":"#e2dfff","surface-dim":"#cbdbf5","on-primary-fixed-variant":"#3323cc","secondary":"#5b598c","on-secondary-container":"#514f81","secondary-fixed":"#e3dfff","tertiary-fixed":"#6ffbbe","surface":"#f8f9ff","background":"#f8f9ff","inverse-primary":"#c3c0ff","on-surface":"#0b1c30","surface-container-low":"#eff4ff","on-error":"#ffffff","tertiary":"#005338","outline-variant":"#c7c4d8","surface-container-lowest":"#ffffff","on-primary":"#ffffff","primary-fixed-dim":"#c3c0ff","tertiary-container":"#006e4b","error-container":"#ffdad6","on-secondary-fixed":"#181445","on-tertiary-container":"#67f4b7","primary-container":"#4f46e5","outline":"#777587","on-primary-fixed":"#0f0069"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","margin":"1rem","margin-md":"1.5rem","gutter-lg":"2rem","margin-lg":"2.5rem","gutter-md":"1.5rem","space-lg":"1.5rem","space-xl":"2rem","space-md":"1rem","gutter":"1rem","space-sm":"0.5rem"},"fontFamily":{"body-md":["Inter"],"label-md":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-xs":["Plus Jakarta Sans"],"title-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-xl":["Plus Jakarta Sans"],"stat-counter":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},"fontSize":{"body-md":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"display-lg":["3rem",{"lineHeight":"3.5rem","letterSpacing":"-0.03em","fontWeight":"800"}],"label-xs":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"700"}],"title-sm":["1rem",{"lineHeight":"1.5rem","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"headline-xl":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.025em","fontWeight":"700"}],"stat-counter":["2rem",{"lineHeight":"2.25rem","letterSpacing":"-0.03em","fontWeight":"700"}],"headline-xl-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["0.875rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"headline-md":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-lg":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(30,27,75,0.04)]"><div class="h-28 max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col justify-between pt-space-sm"><div class="flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs"><img alt="CampusOS Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsVYYffMrXhoWipSUM7fwfjA-KPxh8EEA_VvMXgsiPnc3_HPvV63Jjq0IZ6KKijUfuWtkhptsEUqfDSgwzYKC3BTCPJrDibkLOurSYndaUc5SnwCVFPSdsi--00NqGuZ2-tqGmeMR_Cf9KyNX8GgD7zqHfFhwtXkukEnubYoVQe-lMi-grpeEF3pURpYJ-Qkuj6yk3AtR0MXcpfjTETOcnfCYC8ExrToO3RAXgQRZNvp-TRcIjMew"/><div class="flex flex-col"><span class="font-headline-md text-headline-md leading-none text-primary">CampusOS</span><span class="font-label-xs text-label-xs text-on-surface-variant">State University Campus</span></div></div><div class="hidden xl:flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg cursor-pointer hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-secondary text-[18px]">school</span><span class="font-label-xs text-label-xs text-on-surface">State University — Main Campus</span><span class="material-symbols-outlined text-on-surface-variant text-[16px]">expand_more</span></div></div><div class="flex-1 max-w-xl mx-space-sm hidden md:block"><div class="relative flex items-center w-full"><span class="material-symbols-outlined absolute left-space-md text-outline text-[20px] pointer-events-none">search</span><input class="w-full pl-10 pr-12 py-space-xs bg-surface-container-low rounded-full font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container outline-none transition-all shadow-[0_1px_2px_rgba(30,27,75,0.02)]" placeholder="Search assignments, events, courses, lost items... (Cmd+K)" type="text"/><span class="absolute right-space-sm font-label-xs text-label-xs text-on-surface-variant bg-surface-container px-space-xs py-0.5 rounded">⌘K</span></div></div><div class="flex items-center gap-space-sm sm:gap-space-md"><button class="inline-flex items-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-md px-space-md py-space-xs rounded-lg transition-colors shadow-[0_1px_3px_rgba(30,27,75,0.04)]" onclick="openReportModal('found')" type="button"><span class="material-symbols-outlined text-[18px]">add</span><span class="hidden sm:inline">New Task / Report</span></button><button class="relative p-space-xs rounded-full hover:bg-surface-container text-on-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-error text-on-error font-label-xs text-[10px]">3</span></button><div class="flex items-center gap-space-xs pl-space-xs sm:pl-space-sm"><div class="relative"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfSPENqNP9U5TwPQFhSO5XWyKgO5G6lqjQs1MJDThLQHticLyfxIjbiuNixq4y6Mv8S1JMnRC0qeIJB1P92_enHj0MuFfBbbpTIbeluP1M0Hc3W3V_POFY5CUjPMQj_k6ZLFsPyKC6YeiLf5tMjYqIJD0f5qoys80BZOgzbbea0v1TC-PKc5dXg44mqJLx0Yc1mkhXv85e8Qth5BVG4hMFr_8rQHZx5nFwSufkIy-v_Gmgbb7JNnE"/><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-tertiary-fixed-dim ring-2 ring-surface-container-lowest"></span></div><div class="hidden lg:flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface leading-tight">Alex Morgan</span><span class="font-label-xs text-label-xs text-on-surface-variant">CS '26</span></div></div></div></div><div class="flex items-center justify-between gap-space-md overflow-x-auto"><nav class="flex items-center gap-space-xs py-1"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap" data-path="my-day" href="#">My Day</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap" data-path="assignments-and-deadlines" href="#">Assignments &amp; Deadlines</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap" data-path="attendance-calculator" href="#">Attendance Calculator</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap" data-path="campus-events-hub" href="#">Campus Events Hub</a><a class="font-label-md text-label-md bg-surface-container-high text-primary px-space-md py-space-xs rounded-lg transition-colors whitespace-nowrap font-bold" data-path="lost-and-found" href="#">Lost &amp; Found</a></nav><div class="hidden md:flex items-center gap-space-xs pb-1 font-label-xs text-label-xs text-on-surface-variant whitespace-nowrap"><span class="inline-flex items-center gap-1 bg-surface-container-low px-space-xs py-0.5 rounded text-on-secondary-container"><span class="material-symbols-outlined text-[14px]">event_note</span>Fall 2025 · Week 8</span><span class="inline-flex items-center gap-1 bg-surface-container-low px-space-xs py-0.5 rounded text-on-secondary-container"><span class="material-symbols-outlined text-[14px]">timer</span>Midterms in 12 days</span><span class="inline-flex items-center gap-1 bg-tertiary/10 text-tertiary px-space-xs py-0.5 rounded"><span class="material-symbols-outlined text-[14px]">check_circle</span>Health: 82%</span></div></div></div><div class="md:hidden w-full bg-surface-container-low py-1 px-margin text-center font-label-xs text-label-xs text-on-secondary-container truncate">Fall 2025 · Week 8 | Midterms in 12 days | Attendance Health: 82% overall</div></header><main class="w-full pt-28 bg-surface"><div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg py-space-md"><div class="flex flex-col w-full">
+<!-- Top Spatial Discovery Utility Ribbon -->
+<div class="flex items-center justify-between py-space-xs mb-space-sm text-on-surface-variant font-label-xs text-label-xs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-block w-2 h-2 rounded-full bg-tertiary-fixed-dim animate-pulse"></span>
+<span class="font-semibold text-on-surface">Campus Spatial Discovery Engine v2.4</span>
+<span class="hidden sm:inline text-outline">|</span>
+<span class="hidden sm:inline">6 Interactive Zones Mapped</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="text-on-surface-variant hidden xs:inline">Campus Recovery Rate:</span>
+<span class="font-label-md text-label-md text-tertiary font-bold">91.4% this semester</span>
+<span class="bg-surface-container px-2 py-0.5 rounded-full text-on-secondary-container font-mono text-[11px]">33 Active Pins</span>
+</div>
+</div>
+<!-- Header Card: Spatial Discovery Variant -->
+<div class="relative bg-surface-container-lowest rounded-xl p-space-md lg:p-space-lg shadow-sm mb-space-md border border-outline-variant/30">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-space-xs bg-surface-container px-space-sm py-0.5 rounded-full mb-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">explore</span>
+<span class="font-label-xs text-label-xs text-primary uppercase tracking-wider font-bold">Variant 1 · Spatial &amp; Zone-Centric Map</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Interactive Campus Map &amp; Spatial Discovery</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+Explore lost belongings and custody drop-off hubs across campus grounds in real time. Filter by building radius, cluster pins, and verified security lockboxes.
+</p>
+</div>
+<!-- Actions & View Switcher -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm shrink-0">
+<!-- View Toggle (Map View vs Grid View) -->
+<div class="inline-flex p-1 bg-surface-container-low rounded-xl border border-outline-variant/40">
+<button class="inline-flex items-center gap-1.5 px-space-md py-1.5 rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary shadow-sm font-bold transition-all" id="btn-toggle-map" onclick="toggleSpatialLayout('map')" type="button">
+<span class="material-symbols-outlined text-[18px]">map</span>
+<span>Map View</span>
+</button>
+<button class="inline-flex items-center gap-1.5 px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" id="btn-toggle-grid" onclick="toggleSpatialLayout('grid')" type="button">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+<span>Grid View</span>
+</button>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-md text-label-md px-space-md py-2 rounded-lg shadow-sm transition-all transform active:scale-95" onclick="openReportModal('lost')" type="button">
+<span class="material-symbols-outlined text-[18px]">search</span>
+<span>+ Report Lost</span>
+</button>
+<button class="inline-flex items-center justify-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-md px-space-md py-2 rounded-lg shadow-md transition-all transform active:scale-95" onclick="openReportModal('found')" type="button">
+<span class="material-symbols-outlined text-[18px]">volunteer_activism</span>
+<span>+ Report Found</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quick Zone Clusters Selector Bar -->
+<div class="mt-space-md pt-space-sm border-t border-outline-variant/30 flex items-center justify-between gap-space-sm overflow-x-auto">
+<div class="flex items-center gap-space-xs shrink-0 text-on-surface-variant font-label-xs text-label-xs uppercase tracking-wider font-bold">
+<span class="material-symbols-outlined text-primary text-[18px]">near_me</span>
+<span>Campus Zones:</span>
+</div>
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-0.5" id="zone-pills-container">
+<button class="zone-pill active inline-flex items-center gap-1.5 bg-primary text-on-primary px-space-sm py-1 rounded-full font-label-xs text-label-xs font-semibold whitespace-nowrap shadow-sm" onclick="filterByCampusZone('all')" type="button">
+<span>All Grounds (33)</span>
+</button>
+<button class="zone-pill inline-flex items-center gap-1.5 bg-surface-container-low hover:bg-surface-container text-on-surface-variant px-space-sm py-1 rounded-full font-label-xs text-label-xs font-medium whitespace-nowrap transition-colors" onclick="filterByCampusZone('library')" type="button">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span>Main Library (11)</span>
+</button>
+<button class="zone-pill inline-flex items-center gap-1.5 bg-surface-container-low hover:bg-surface-container text-on-surface-variant px-space-sm py-1 rounded-full font-label-xs text-label-xs font-medium whitespace-nowrap transition-colors" onclick="filterByCampusZone('quad')" type="button">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span>Engineering Quad (8)</span>
+</button>
+<button class="zone-pill inline-flex items-center gap-1.5 bg-surface-container-low hover:bg-surface-container text-on-surface-variant px-space-sm py-1 rounded-full font-label-xs text-label-xs font-medium whitespace-nowrap transition-colors" onclick="filterByCampusZone('dining')" type="button">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>Dining Hall B (5)</span>
+</button>
+<button class="zone-pill inline-flex items-center gap-1.5 bg-surface-container-low hover:bg-surface-container text-on-surface-variant px-space-sm py-1 rounded-full font-label-xs text-label-xs font-medium whitespace-nowrap transition-colors" onclick="filterByCampusZone('union')" type="button">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span>
+<span>Student Union (6)</span>
+</button>
+<button class="zone-pill inline-flex items-center gap-1.5 bg-surface-container-low hover:bg-surface-container text-on-surface-variant px-space-sm py-1 rounded-full font-label-xs text-label-xs font-medium whitespace-nowrap transition-colors" onclick="filterByCampusZone('security')" type="button">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span>Fountain Plaza Hub (3)</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Controls Bar: Status, Radius Filter, Categories & Keyword Search -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm mb-space-md border border-outline-variant/30">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-sm">
+<!-- Lost vs Found Subtabs -->
+<div class="inline-flex bg-surface-container-low p-1 rounded-xl self-start">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" id="tab-btn-lost" onclick="switchMainTab('lost')" type="button">
+<span class="material-symbols-outlined text-[18px]">search</span>
+<span>Lost Items</span>
+<span class="bg-surface-container text-on-secondary-container px-2 py-0.5 rounded-full text-label-xs font-bold">14</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary shadow-sm transition-all font-bold" id="tab-btn-found" onclick="switchMainTab('found')" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">inventory_2</span>
+<span>Found Items</span>
+<span class="bg-primary-container text-on-primary px-2 py-0.5 rounded-full text-label-xs font-bold">19</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" id="tab-btn-my-claims" onclick="switchMainTab('my-claims')" type="button">
+<span class="material-symbols-outlined text-[18px]">assignment_turned_in</span>
+<span>My Claims</span>
+<span class="bg-surface-container-high text-primary px-2 py-0.5 rounded-full text-label-xs font-bold">2 Active</span>
+</button>
+</div>
+<!-- Search & Location Radius Slider Control -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<div class="relative flex items-center min-w-[240px]">
+<span class="material-symbols-outlined absolute left-3 text-outline text-[18px] pointer-events-none">search</span>
+<input class="w-full pl-9 pr-space-md py-1.5 bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container outline-none transition-all shadow-inner" id="keyword-search" placeholder="Search markers, items, pins..." type="text"/>
+</div>
+<!-- Radius Filter -->
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-lg border border-outline-variant/30">
+<span class="material-symbols-outlined text-[18px] text-secondary">radar</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant whitespace-nowrap">Radius:</span>
+<select class="bg-transparent font-label-xs text-label-xs font-semibold text-on-surface outline-none cursor-pointer" id="radius-select" onchange="filterRadius(this.value)">
+<option value="all">Entire Campus (1.2 mi)</option>
+<option value="500">Within 500 ft</option>
+<option value="1000">Within 0.25 mi</option>
+<option value="2000">Central Quad Only</option>
+</select>
+</div>
+</div>
+</div>
+<!-- Category Tag Pills Row -->
+<div class="flex items-center gap-space-xs overflow-x-auto pt-space-sm mt-space-sm border-t border-outline-variant/20 no-scrollbar">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider shrink-0 mr-1">Filter Tag:</span>
+<button class="category-pill active bg-primary text-on-primary px-space-md py-1 rounded-full font-label-xs text-label-xs whitespace-nowrap transition-colors" type="button">All Categories</button>
+<button class="category-pill bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-space-md py-1 rounded-full font-label-xs text-label-xs whitespace-nowrap transition-colors" type="button">Electronics</button>
+<button class="category-pill bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-space-md py-1 rounded-full font-label-xs text-label-xs whitespace-nowrap transition-colors" type="button">Student IDs &amp; Wallets</button>
+<button class="category-pill bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-space-md py-1 rounded-full font-label-xs text-label-xs whitespace-nowrap transition-colors" type="button">Books &amp; Notes</button>
+<button class="category-pill bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-space-md py-1 rounded-full font-label-xs text-label-xs whitespace-nowrap transition-colors" type="button">Keys</button>
+<button class="category-pill bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-space-md py-1 rounded-full font-label-xs text-label-xs whitespace-nowrap transition-colors" type="button">Bags &amp; Backpacks</button>
+<button class="category-pill bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface px-space-md py-1 rounded-full font-label-xs text-label-xs whitespace-nowrap transition-colors" type="button">Clothing</button>
+</div>
+</div>
+<!-- MAIN SPLIT WORKSPACE: Interactive Campus Map & Location Feed -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md mb-space-lg" id="spatial-workspace">
+<!-- LEFT / MAIN: Zone-Centric Item Feed (High density, distance & time badges) -->
+<div class="lg:col-span-7 flex flex-col gap-space-sm order-2 lg:order-1" id="feed-column">
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-md text-headline-md text-on-surface font-bold">Campus Belongs Feed</span>
+<span class="bg-surface-container-high text-primary font-label-xs text-label-xs px-2 py-0.5 rounded-full font-semibold" id="feed-count-badge">6 Featured Nearby</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-xs text-label-xs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">near_me</span>
+<span>Sorted by Proximity to Fountain Plaza</span>
+</div>
+</div>
+<div class="space-y-space-sm" id="items-feed-list">
+<!-- Item Card 1: Sony WH-1000XM4 (Main Library 3rd Floor Quiet Zone) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm border border-outline-variant/30 hover:border-primary-container transition-all group flex flex-col sm:flex-row gap-space-md" data-zone="library">
+<div class="relative w-full sm:w-44 h-36 rounded-lg overflow-hidden bg-surface-container shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A pair of sleek matte black Sony over-ear noise-cancelling headphones resting on a wooden study table inside a bright modern academic library." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJde5T4xNV1w-8tOJD87y9EphjNNlxztRDQ8w-PLtoKEQAXSOOtHR9Nl4GGYrayqAMSP6KVsyuZkuZehtOIUIkTm-IhExOSx_3lBPZk38vvzKR-JVddXOCf6iF_KTt7hpU_aWTac5BHmnocwgcwf0lNsCOhGWmpsLoah1rK1-_txqxYxq8qPEwFDv2GDGdxiMtDVnfE_G73RX03RZToN2nYvJvJG4pbMCqDskkev8_O7rfeEaLMNw"/>
+<span class="absolute top-2 left-2 bg-primary-container text-on-primary font-label-xs text-[10px] px-2 py-0.5 rounded-full font-bold shadow-sm">
+Found Item
+</span>
+<span class="absolute bottom-2 left-2 bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-mono text-[10px] px-2 py-0.5 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary-fixed-dim">near_me</span> 250 ft · North Wing
+</span>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1 mb-1">
+<span class="inline-flex items-center gap-1 text-primary font-label-xs text-label-xs font-semibold bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[13px]">location_on</span> Main Library · 3rd Floor Quiet Zone (Desk #34)
+</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant shrink-0">Found 45m ago</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+Sony WH-1000XM4 Noise Canceling Headphones (Black)
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+Left on study desk near East corner cubicles. Comes inside a black zip-around hard carry case with an aux cable.
+</p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-outline-variant/20 flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-2 text-on-surface-variant font-label-xs text-label-xs">
+<span class="inline-flex items-center gap-1 text-tertiary font-medium">
+<span class="material-symbols-outlined text-[14px]">verified_user</span> Ownership challenge ready
+</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-surface-container-low hover:bg-surface-container text-primary text-label-xs font-semibold inline-flex items-center gap-1 transition-colors" onclick="highlightPinOnMap('pin-library')" type="button">
+<span class="material-symbols-outlined text-[14px]">pin_drop</span> Map Pin
+</button>
+<button class="inline-flex items-center gap-1 bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-xs px-space-md py-1.5 rounded-lg shadow-sm transition-colors active:scale-95 font-bold" onclick="openClaimModal('Sony WH-1000XM4 Noise Canceling Headphones', 'Main Library 3rd Floor', 'Electronics', 'Oct 11')" type="button">
+<span class="material-symbols-outlined text-[15px]">verified</span>
+<span>Claim Item</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item Card 2: Student University ID Card (Dining Hall B · Vaulted at Security) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm border border-outline-variant/30 hover:border-primary-container transition-all group flex flex-col sm:flex-row gap-space-md" data-zone="dining">
+<div class="relative w-full sm:w-44 h-36 rounded-lg overflow-hidden bg-gradient-to-br from-surface-container to-surface-container-high p-3 flex flex-col justify-between shrink-0 border border-outline-variant/40">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-[22px]">badge</span>
+<span class="bg-error-container text-on-error-container font-label-xs text-[10px] px-1.5 py-0.5 rounded font-bold uppercase">Private</span>
+</div>
+<div class="space-y-0.5">
+<div class="h-1.5 w-16 bg-outline-variant rounded"></div>
+<div class="font-mono text-xs text-on-surface font-bold tracking-widest">
+ID: 2023-••••-89
+</div>
+</div>
+<span class="font-label-xs text-[10px] text-primary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">lock</span> Photo Obfuscated
+</span>
+<span class="absolute top-2 left-2 bg-secondary-fixed text-on-secondary-fixed font-label-xs text-[10px] px-2 py-0.5 rounded-full font-bold shadow-sm">
+Vault Tag #SEC-892
+</span>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1 mb-1">
+<span class="inline-flex items-center gap-1 text-secondary font-label-xs text-label-xs font-semibold bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[13px]">local_police</span> Dining Hall B · Deposited to Fountain Plaza Hub
+</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant shrink-0">Found 2h ago</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+Student University ID Card — Dept of Mechanical Eng
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+Found near Cashier Terminal 2. Private data masked. Vaulted directly in security safe box with Supervisor Officer Vasquez.
+</p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-outline-variant/20 flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-2 text-on-surface-variant font-label-xs text-label-xs">
+<span class="inline-flex items-center gap-1 text-on-secondary-container font-medium">
+<span class="material-symbols-outlined text-[14px]">security</span> Verified Vault Locker #4
+</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-surface-container-low hover:bg-surface-container text-primary text-label-xs font-semibold inline-flex items-center gap-1 transition-colors" onclick="highlightPinOnMap('pin-dining')" type="button">
+<span class="material-symbols-outlined text-[14px]">pin_drop</span> Map Pin
+</button>
+<button class="inline-flex items-center gap-1 bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-xs px-space-md py-1.5 rounded-lg shadow-sm transition-colors active:scale-95 font-bold" onclick="openClaimModal('Student University ID Card (Mech Eng)', 'Dining Hall B', 'Student IDs &amp; Wallets', 'Oct 12')" type="button">
+<span class="material-symbols-outlined text-[15px]">verified_user</span>
+<span>Claim ID</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item Card 3: Silver MacBook Air M2 (Engineering Quad · Lost Report) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm border border-outline-variant/30 hover:border-primary-container transition-all group flex flex-col sm:flex-row gap-space-md" data-zone="quad">
+<div class="relative w-full sm:w-44 h-36 rounded-lg overflow-hidden bg-surface-container shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A slim silver 13-inch laptop emerging slightly from a charcoal gray wool felt protective sleeve." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARTNDCohD0jGlQ_T9AJbuANgt5Tt8UDxYiXaOBoIm_eC5OxMgJVGl7m8Bbs_NnkASxALd4vIecMpMVW1mLWCftRYKXyjiqWKZGr5HjCfF59qSPqYlaSQrN5k1wRQgbcucf73rYNc9D7HaEi9rLAXhVvu8NaLs_1_ktgtOxrK8M7eMLp_2YTFtUCP5GEEXNIDIjBIiMgDjdKG8MH9LWzFwCRxvaMptzd12fdq4XsCmx5MV13bj_ZVk"/>
+<span class="absolute top-2 left-2 bg-error text-on-error font-label-xs text-[10px] px-2 py-0.5 rounded-full font-bold shadow-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span> Lost Report
+</span>
+<span class="absolute bottom-2 left-2 bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-mono text-[10px] px-2 py-0.5 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary-fixed-dim">near_me</span> 450 ft · Quad Benches
+</span>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1 mb-1">
+<span class="inline-flex items-center gap-1 text-primary font-label-xs text-label-xs font-semibold bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[13px]">location_on</span> Engineering Quad · Stone Picnic Table B
+</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant shrink-0">Lost Yesterday</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+Silver MacBook Air M2 in Gray Felt Sleeve
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+Owner left during senior project session. Distinct constellation decal sticker on bottom corner. $50 community finder reward attached!
+</p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-outline-variant/20 flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-1.5 text-on-surface-variant font-label-xs text-label-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">campaign</span>
+<span class="font-bold text-primary">$50 Community Reward</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-surface-container-low hover:bg-surface-container text-primary text-label-xs font-semibold inline-flex items-center gap-1 transition-colors" onclick="highlightPinOnMap('pin-quad')" type="button">
+<span class="material-symbols-outlined text-[14px]">pin_drop</span> Map Pin
+</button>
+<button class="inline-flex items-center gap-1 bg-primary-container hover:bg-primary text-on-primary font-label-md text-label-xs px-space-md py-1.5 rounded-lg shadow-sm transition-colors active:scale-95 font-bold" onclick="openFoundMatchModal('MacBook Air M2 in Gray Felt Sleeve')" type="button">
+<span class="material-symbols-outlined text-[15px]">handshake</span>
+<span>I Found This</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item Card 4: Black Matte Hydro Flask (Science Hall · Claim Pending) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm border border-outline-variant/30 hover:border-primary-container transition-all group flex flex-col sm:flex-row gap-space-md" data-zone="science">
+<div class="relative w-full sm:w-44 h-36 rounded-lg overflow-hidden bg-surface-container shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A 32oz wide-mouth black matte Hydro Flask water bottle covered in colorful tech and computer science club stickers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDk2B7cseJHpfYSaQuxr9hyzNKLnnN80HznR_37vyD5bDcTYmXoERoocYT1C3miGY3oTRkHfwjM2yGoes5PPxK-r9QJ3tnTsVyBK7zgeTBxSuvlUipPVam8G9amsojLKdfG1RpFZPhv_VT0KT6XBd_c1_i87SMVeVymWT8FjGwLGHTH1Qx4mohw3UW1Cbv_0jXGdqRXYhXvMhjVd_g2whRXegI178bfqStfoLM7DpAjONXC7KRy2Vc"/>
+<span class="absolute top-2 left-2 bg-secondary-container text-on-secondary-container font-label-xs text-[10px] px-2 py-0.5 rounded-full font-bold shadow-sm">
+Review Pending
+</span>
+<span class="absolute bottom-2 left-2 bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-mono text-[10px] px-2 py-0.5 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary-fixed-dim">near_me</span> 800 ft · Science Hall
+</span>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1 mb-1">
+<span class="inline-flex items-center gap-1 text-on-surface-variant font-label-xs text-label-xs font-semibold bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[13px]">location_on</span> Science Complex · Rm 104 Auditorium
+</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant shrink-0">Found 3h ago</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+Black Matte Hydro Flask with CS Club Stickers
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+32oz wide-mouth flex cap with subtle dent near base and Git/Python stickers. Claim currently being reviewed.
+</p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-outline-variant/20 flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-xs text-label-xs">
+<span class="material-symbols-outlined text-[14px] text-secondary">hourglass_top</span>
+<span>1 student submitted verification</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-surface-container-low hover:bg-surface-container text-primary text-label-xs font-semibold inline-flex items-center gap-1 transition-colors" onclick="highlightPinOnMap('pin-science')" type="button">
+<span class="material-symbols-outlined text-[14px]">pin_drop</span> Map Pin
+</button>
+<button class="inline-flex items-center gap-1 bg-surface-container text-on-surface-variant cursor-not-allowed font-label-md text-label-xs px-space-md py-1.5 rounded-lg font-bold" disabled="" type="button">
+<span class="material-symbols-outlined text-[15px]">pending</span>
+<span>In Verification</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item Card 5: Brass Dorm Room Key & Blue Enamel Keychain (Student Union) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm border border-outline-variant/30 hover:border-primary-container transition-all group flex flex-col sm:flex-row gap-space-md" data-zone="union">
+<div class="relative w-full sm:w-44 h-36 rounded-lg overflow-hidden bg-surface-container shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="A brass dorm room key and security fob attached to a blue university campus lanyard." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8k4pz_W6sFGiIwDBAiEhHeJkRZFOtOm8JbJ2FudkktfSLXj2yamPQeMFGfFcvnMtetxtymRqeCHhd1WDaSHQSxUSFUsZ9Et8jYd8uml2ynFJipK6cJjagJzZIun2bsulwzZEX6EouZyHxBRnlk7RabxZMAZ_1jQnK1lcISYGoue3tjkkG9pNV2gd_cvI6Mf6xExLWl4MZZxXzkFVcXWzBd8i5hPJn2MD9F9TZJNy0sZZfz672VAE"/>
+<span class="absolute top-2 left-2 bg-primary-container text-on-primary font-label-xs text-[10px] px-2 py-0.5 rounded-full font-bold shadow-sm">
+Found Item
+</span>
+<span class="absolute bottom-2 left-2 bg-inverse-surface/85 backdrop-blur-sm text-inverse-on-surface font-mono text-[10px] px-2 py-0.5 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary-fixed-dim">near_me</span> 620 ft · Student Union
+</span>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1 mb-1">
+<span class="inline-flex items-center gap-1 text-primary font-label-xs text-label-xs font-semibold bg-surface-container px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[13px]">location_on</span> Student Union · West Lawn Patio
+</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant shrink-0">Found Today 8:30 AM</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+Brass Dorm Room Key &amp; Blue Enamel Keychain
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+Two standard brass keys plus an NFC residence hall tap fob. Room stamping numbers are blinded for security protection.
+</p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-outline-variant/20 flex flex-wrap items-center justify-between gap-space-xs">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-xs text-label-xs">
+<span class="material-symbols-outlined text-[14px] text-primary">key</span>
+<span>Room # blind question</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-1 rounded bg-surface-container-low hover:bg-surface-container text-primary text-label-xs font-semibold inline-flex items-center gap-1 transition-colors" onclick="highlightPinOnMap('pin-union')" type="button">
+<span class="material-symbols-outlined text-[14px]">pin_drop</span> Map Pin
+</button>
+<button class="inline-flex items-center gap-1 bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-xs px-space-md py-1.5 rounded-lg shadow-sm transition-colors active:scale-95 font-bold" onclick="openClaimModal('Brass Dorm Room Key &amp; Blue Enamel Keychain', 'Student Union West Lawn', 'Keys', 'Oct 12')" type="button">
+<span class="material-symbols-outlined text-[15px]">verified</span>
+<span>Claim Item</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Item Card 6: Calculus Textbook & Notebook (Library Rm 201 · Resolved) -->
+<div class="bg-surface-container-lowest/80 rounded-xl p-space-md shadow-sm border border-outline-variant/30 flex flex-col sm:flex-row gap-space-md opacity-90" data-zone="library">
+<div class="relative w-full sm:w-44 h-36 rounded-lg overflow-hidden bg-surface-container shrink-0">
+<img class="w-full h-full object-cover grayscale-[25%]" data-alt="A thick hardcover university calculus textbook paired with a weathered brown leather bound notebook." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSwdFhqe1RqTjn3QkJ-LxaHfpAojcRfbY2Q1sBX0LPfTwrLibm_ruDnvD0a-7wUVIKRJ_Gf54hjUTFIBDSV71M03OksgDBFlgiUsLqfSfKmtT2I9-z_88H9E6owth8lq3kF03_6IULi8ac6y4zNKqYhVZwL_4smchM5F4fQ8xBz0iQ4FA8QfzaryeR6iMNebVTkrLVSBrVPzx4LEqx0MIlKrASQutIWKFLJo4HwxsnNE4ARlW3-rw"/>
+<span class="absolute top-2 left-2 bg-tertiary text-on-tertiary font-label-xs text-[10px] px-2 py-0.5 rounded-full font-bold shadow-sm">
+Returned &amp; Closed
+</span>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1 mb-1">
+<span class="inline-flex items-center gap-1 text-tertiary font-label-xs text-label-xs font-semibold bg-tertiary/10 px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[13px]">check_circle</span> Main Library · Rm 201 Hand-off
+</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant shrink-0">Resolved Oct 9</span>
+</div>
+<h3 class="font-title-sm text-title-sm text-on-surface font-semibold leading-snug line-through decoration-tertiary">
+Calculus Textbook &amp; Leather Notebook
+</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">
+Stewart Calculus 9th edition with handwritten notes. Safely reunited with owner Marcus K. via Security safe drop box.
+</p>
+</div>
+<div class="mt-space-sm pt-space-xs border-t border-outline-variant/20 flex flex-wrap items-center justify-between gap-space-xs">
+<span class="inline-flex items-center gap-1 text-tertiary font-label-xs text-label-xs font-bold">
+<span class="material-symbols-outlined text-[14px]">done_all</span> Case Closed (18h return)
+</span>
+<button class="bg-surface-container text-on-surface-variant text-label-xs px-3 py-1 rounded cursor-default" disabled="" type="button">
+Archive
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT: Interactive Campus Map Explorer & Live Spatial Canvas -->
+<div class="lg:col-span-5 order-1 lg:order-2" id="map-column">
+<div class="sticky top-32 space-y-space-sm">
+<!-- Map Canvas Card -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 shadow-md overflow-hidden flex flex-col">
+<!-- Map Toolbar -->
+<div class="p-space-sm bg-surface-container-low border-b border-outline-variant/30 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">layers</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Campus Interactive Map</span>
+</div>
+<div class="flex items-center gap-1">
+<button class="p-1 rounded bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant hover:text-on-surface text-[14px] shadow-xs" onclick="resetMapZoom()" title="Reset view" type="button">
+<span class="material-symbols-outlined text-[18px]">crop_free</span>
+</button>
+<button class="p-1 rounded bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant hover:text-on-surface text-[14px] shadow-xs" onclick="zoomInMap()" title="Zoom In" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+<button class="p-1 rounded bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant hover:text-on-surface text-[14px] shadow-xs" onclick="zoomOutMap()" title="Zoom Out" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+</div>
+</div>
+<!-- Simulated Interactive SVG Map Canvas -->
+<div class="relative w-full h-[480px] bg-[#eef4fb] overflow-hidden select-none cursor-grab active:cursor-grabbing" id="map-canvas-container">
+<!-- Campus Grounds Base Vector Artwork -->
+<svg class="w-full h-full object-cover" id="campus-svg" viewbox="0 0 600 500">
+<defs>
+<pattern height="20" id="campus-grid" patternunits="userSpaceOnUse" width="20">
+<path d="M 20 0 L 0 0 0 20" fill="none" stroke="#dbe7f5" stroke-width="0.8"></path>
+</pattern>
+</defs>
+<rect fill="url(#campus-grid)" height="100%" width="100%"></rect>
+<!-- Green spaces / Lawns -->
+<path d="M 40,80 Q 140,50 200,90 T 260,180 Q 180,240 60,190 Z" fill="#d9f3e5" opacity="0.8"></path>
+<path d="M 320,70 Q 450,40 520,110 T 480,260 Q 380,280 310,200 Z" fill="#d9f3e5" opacity="0.8"></path>
+<path d="M 120,310 Q 250,290 320,370 T 260,470 Q 120,480 80,410 Z" fill="#d9f3e5" opacity="0.7"></path>
+<!-- Campus Pathways / Walking Arteries -->
+<path d="M 0,250 C 180,250 220,180 300,180 S 420,250 600,250" fill="none" stroke="#d2deed" stroke-dasharray="4,4" stroke-width="8"></path>
+<path d="M 300,0 C 300,160 300,320 300,500" fill="none" stroke="#d2deed" stroke-dasharray="4,4" stroke-width="8"></path>
+<path d="M 100,100 L 500,400" fill="none" stroke="#dbe6f3" stroke-width="5"></path>
+<path d="M 500,100 L 100,400" fill="none" stroke="#dbe6f3" stroke-width="5"></path>
+<!-- Campus Landmark Buildings (Polygons) -->
+<!-- Main Library -->
+<g class="cursor-pointer hover:opacity-90 transition-opacity" onclick="filterByCampusZone('library')">
+<rect fill="#dce9ff" height="85" rx="8" stroke="#4f46e5" stroke-dasharray="2,2" stroke-width="2" width="130" x="80" y="80"></rect>
+<text fill="#0b1c30" font-family="Plus Jakarta Sans" font-size="12" font-weight="700" text-anchor="middle" x="145" y="120">Main Library</text>
+<text fill="#464555" font-family="Inter" font-size="9" text-anchor="middle" x="145" y="138">Study Hub · 3 Fl</text>
+</g>
+<!-- Engineering Quad -->
+<g class="cursor-pointer hover:opacity-90 transition-opacity" onclick="filterByCampusZone('quad')">
+<rect fill="#e0e7ff" height="80" rx="8" stroke="#3525cd" stroke-dasharray="2,2" stroke-width="1.5" width="130" x="380" y="85"></rect>
+<text fill="#0b1c30" font-family="Plus Jakarta Sans" font-size="12" font-weight="700" text-anchor="middle" x="445" y="122">Engineering Quad</text>
+<text fill="#464555" font-family="Inter" font-size="9" text-anchor="middle" x="445" y="140">Halls A–D &amp; Lawn</text>
+</g>
+<!-- Central Fountain Plaza Security Hub (Primary safe haven) -->
+<g class="cursor-pointer hover:opacity-90 transition-opacity" onclick="filterByCampusZone('security')">
+<circle cx="300" cy="245" fill="#e5eeff" r="42" stroke="#3525cd" stroke-width="2.5"></circle>
+<circle cx="300" cy="245" fill="#4f46e5" fill-opacity="0.12" r="34"></circle>
+<text fill="#3525cd" font-family="Plus Jakarta Sans" font-size="11" font-weight="800" text-anchor="middle" x="300" y="242">FOUNTAIN PLAZA</text>
+<text fill="#005338" font-family="Inter" font-size="9" font-weight="600" text-anchor="middle" x="300" y="258">24/7 Security Desk</text>
+</g>
+<!-- Science Hall Complex -->
+<g class="cursor-pointer hover:opacity-90 transition-opacity" onclick="filterByCampusZone('science')">
+<rect fill="#dce9ff" height="75" rx="8" stroke="#777587" stroke-width="1.5" width="120" x="70" y="310"></rect>
+<text fill="#0b1c30" font-family="Plus Jakarta Sans" font-size="12" font-weight="700" text-anchor="middle" x="130" y="348">Science Hall</text>
+<text fill="#464555" font-family="Inter" font-size="9" text-anchor="middle" x="130" y="366">Auditorium Rm 104</text>
+</g>
+<!-- Student Union -->
+<g class="cursor-pointer hover:opacity-90 transition-opacity" onclick="filterByCampusZone('union')">
+<rect fill="#e0e7ff" height="75" rx="8" stroke="#777587" stroke-width="1.5" width="125" x="390" y="310"></rect>
+<text fill="#0b1c30" font-family="Plus Jakarta Sans" font-size="12" font-weight="700" text-anchor="middle" x="452" y="348">Student Union</text>
+<text fill="#464555" font-family="Inter" font-size="9" text-anchor="middle" x="452" y="366">West Lawn Patio</text>
+</g>
+<!-- Dining Hall B -->
+<g class="cursor-pointer hover:opacity-90 transition-opacity" onclick="filterByCampusZone('dining')">
+<rect fill="#eff4ff" height="55" rx="6" stroke="#5b598c" stroke-width="1.5" width="100" x="250" y="380"></rect>
+<text fill="#0b1c30" font-family="Plus Jakarta Sans" font-size="11" font-weight="700" text-anchor="middle" x="300" y="408">Dining Hall B</text>
+<text fill="#464555" font-family="Inter" font-size="9" text-anchor="middle" x="300" y="422">Food Court</text>
+</g>
+</svg>
+<!-- Interactive Map Overlay Cluster Pins -->
+<!-- Pin 1: Library Cluster Pin -->
+<div class="map-pin absolute top-[95px] left-[175px] transform -translate-x-1/2 -translate-y-1/2 group cursor-pointer z-20" id="pin-library" onclick="selectMapItem('Main Library (Sony Headphones &amp; 10 more)')">
+<div class="relative flex items-center justify-center">
+<span class="absolute w-8 h-8 rounded-full bg-primary/25 animate-ping"></span>
+<div class="relative flex items-center gap-1 bg-primary text-on-primary font-label-xs text-label-xs px-2.5 py-1 rounded-full shadow-lg border-2 border-white font-bold hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">headphones</span>
+<span>11 items</span>
+</div>
+</div>
+<!-- Hover Tooltip -->
+<div class="hidden group-hover:block absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-48 bg-inverse-surface text-inverse-on-surface p-2 rounded-lg shadow-xl text-xs z-30 pointer-events-none">
+<p class="font-bold text-white">Main Library Hub</p>
+<p class="text-inverse-on-surface/80">Sony WH-1000XM4, Calc Book + 9 more.</p>
+</div>
+</div>
+<!-- Pin 2: Quad Cluster Pin -->
+<div class="map-pin absolute top-[110px] left-[460px] transform -translate-x-1/2 -translate-y-1/2 group cursor-pointer z-20" id="pin-quad" onclick="selectMapItem('Engineering Quad (MacBook Air M2 &amp; 7 more)')">
+<div class="relative flex items-center justify-center">
+<span class="absolute w-7 h-7 rounded-full bg-error/20 animate-ping"></span>
+<div class="relative flex items-center gap-1 bg-error text-on-error font-label-xs text-label-xs px-2.5 py-1 rounded-full shadow-lg border-2 border-white font-bold hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">laptop_mac</span>
+<span>8 items</span>
+</div>
+</div>
+<div class="hidden group-hover:block absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-48 bg-inverse-surface text-inverse-on-surface p-2 rounded-lg shadow-xl text-xs z-30 pointer-events-none">
+<p class="font-bold text-white">Engineering Quad</p>
+<p class="text-inverse-on-surface/80">MacBook Air M2 lost report ($50 reward).</p>
+</div>
+</div>
+<!-- Pin 3: Fountain Plaza Security Hub Pin (Official Safe Haven) -->
+<div class="map-pin absolute top-[245px] left-[300px] transform -translate-x-1/2 -translate-y-1/2 group cursor-pointer z-20" id="pin-plaza" onclick="selectMapItem('Campus Security Desk Vault (11 Items in Safe)')">
+<div class="relative flex items-center justify-center">
+<span class="absolute w-9 h-9 rounded-full bg-tertiary/30 animate-pulse"></span>
+<div class="relative flex items-center gap-1 bg-tertiary text-on-tertiary font-label-xs text-label-xs px-3 py-1.5 rounded-full shadow-lg border-2 border-white font-bold hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[15px]">verified_user</span>
+<span>24/7 Security Vault</span>
+</div>
+</div>
+<div class="hidden group-hover:block absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-52 bg-inverse-surface text-inverse-on-surface p-2 rounded-lg shadow-xl text-xs z-30 pointer-events-none">
+<p class="font-bold text-white">Safe Exchange Zone</p>
+<p class="text-inverse-on-surface/80">Officer Vasquez on duty. Vaulted IDs, wallets &amp; keys.</p>
+</div>
+</div>
+<!-- Pin 4: Dining Hall B Pin -->
+<div class="map-pin absolute top-[405px] left-[300px] transform -translate-x-1/2 -translate-y-1/2 group cursor-pointer z-20" id="pin-dining" onclick="selectMapItem('Dining Hall B (OneCard ID Tag #892)')">
+<div class="relative flex items-center justify-center">
+<div class="relative flex items-center gap-1 bg-secondary text-on-secondary font-label-xs text-label-xs px-2.5 py-1 rounded-full shadow-lg border-2 border-white font-bold hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">badge</span>
+<span>5 items</span>
+</div>
+</div>
+</div>
+<!-- Pin 5: Science Hall Pin -->
+<div class="map-pin absolute top-[345px] left-[130px] transform -translate-x-1/2 -translate-y-1/2 group cursor-pointer z-20" id="pin-science" onclick="selectMapItem('Science Complex (Hydro Flask &amp; calculators)')">
+<div class="relative flex items-center justify-center">
+<div class="relative flex items-center gap-1 bg-surface-container-highest text-primary font-label-xs text-label-xs px-2 py-1 rounded-full shadow-md border-2 border-white font-bold hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">water_bottle</span>
+<span>3 items</span>
+</div>
+</div>
+</div>
+<!-- Pin 6: Student Union Pin -->
+<div class="map-pin absolute top-[345px] left-[450px] transform -translate-x-1/2 -translate-y-1/2 group cursor-pointer z-20" id="pin-union" onclick="selectMapItem('Student Union (Keys &amp; apparel)')">
+<div class="relative flex items-center justify-center">
+<div class="relative flex items-center gap-1 bg-primary-container text-on-primary font-label-xs text-label-xs px-2.5 py-1 rounded-full shadow-lg border-2 border-white font-bold hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[14px]">key</span>
+<span>6 items</span>
+</div>
+</div>
+</div>
+<!-- Map Legend HUD Pill -->
+<div class="absolute bottom-3 left-3 right-3 bg-surface-container-lowest/95 backdrop-blur-md px-space-sm py-1.5 rounded-lg border border-outline-variant/40 shadow-sm flex items-center justify-between text-[11px] font-label-xs text-on-surface-variant">
+<div class="flex items-center gap-3 overflow-x-auto no-scrollbar">
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-primary inline-block"></span> Found Item</span>
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-error inline-block"></span> Lost Inquiries</span>
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-tertiary inline-block"></span> Safe Drop Vault</span>
+</div>
+<span class="text-primary font-bold hidden sm:inline">Tap pin to filter</span>
+</div>
+</div>
+</div>
+<!-- Real-time Selected Zone Quick Card -->
+<div class="bg-surface-container-low rounded-xl p-space-sm border border-outline-variant/30 flex items-center justify-between" id="zone-summary-box">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">travel_explore</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface" id="selected-zone-name">Viewing: All Campus Grounds</p>
+<p class="font-label-xs text-label-xs text-on-surface-variant">33 Total pins detected across 6 building sectors</p>
+</div>
+</div>
+<button class="text-primary hover:text-primary-container font-label-xs text-label-xs font-bold underline" onclick="filterByCampusZone('all')" type="button">
+Clear Filter
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- LIVE CAMPUS DROP-OFF HUBS DRAWER / PROTOCOL STRIP -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md lg:p-space-lg shadow-sm border border-outline-variant/30 mb-space-lg">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm mb-space-md pb-space-sm border-b border-outline-variant/30">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-tertiary-container text-on-tertiary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">security</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-title-sm text-title-sm text-on-surface font-bold">Authorized Campus Drop-Off Hubs</h3>
+<span class="bg-tertiary/10 text-tertiary text-[10px] font-label-xs font-bold px-2 py-0.5 rounded-full">REAL-TIME STAFF STATUS</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+Drop off or retrieve registered belongings securely at verified staffed locations with digital chain-of-custody logging.
+</p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-xs text-label-xs">
+<span class="material-symbols-outlined text-tertiary text-[18px]">verified</span>
+<span>Zero unattended meetups allowed</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Hub 1: Central Security Desk -->
+<div class="bg-surface-container-low rounded-lg p-space-md border border-outline-variant/30 hover:border-tertiary transition-colors flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md font-bold text-on-surface">Campus Security Vault</span>
+<span class="inline-flex items-center gap-1 bg-tertiary text-on-tertiary text-[10px] font-label-xs font-bold px-2 py-0.5 rounded-full">
+<span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span> 24/7 OPEN
+</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-[16px] text-secondary">place</span> Fountain Plaza · Sub-level 1
+</p>
+<div class="space-y-1 font-label-xs text-label-xs text-on-surface-variant border-t border-outline-variant/20 pt-2">
+<div class="flex items-center justify-between">
+<span>Staff on duty:</span>
+<span class="font-bold text-on-surface">Officer Vasquez</span>
+</div>
+<div class="flex items-center justify-between">
+<span>Specialty:</span>
+<span class="text-primary font-medium">IDs, Wallets, Laptops, Keys</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs">
+<button class="w-full text-center bg-surface-container hover:bg-surface-container-high text-primary font-label-xs text-label-xs font-bold py-1.5 rounded transition-colors" onclick="selectMapItem('Campus Security Desk Vault (11 Items in Safe)')" type="button">
+Locate on Map &amp; Directions
+</button>
+</div>
+</div>
+<!-- Hub 2: Main Library Front Desk -->
+<div class="bg-surface-container-low rounded-lg p-space-md border border-outline-variant/30 hover:border-primary transition-colors flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md font-bold text-on-surface">Library Circulation Desk</span>
+<span class="inline-flex items-center gap-1 bg-primary text-on-primary text-[10px] font-label-xs font-bold px-2 py-0.5 rounded-full">
+Open until 11:00 PM
+</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-[16px] text-secondary">place</span> Main Library · 1st Floor Atrium
+</p>
+<div class="space-y-1 font-label-xs text-label-xs text-on-surface-variant border-t border-outline-variant/20 pt-2">
+<div class="flex items-center justify-between">
+<span>Staff on duty:</span>
+<span class="font-bold text-on-surface">Student Staff Elena R.</span>
+</div>
+<div class="flex items-center justify-between">
+<span>Specialty:</span>
+<span class="text-primary font-medium">Books, Notebooks, Headphones</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs">
+<button class="w-full text-center bg-surface-container hover:bg-surface-container-high text-primary font-label-xs text-label-xs font-bold py-1.5 rounded transition-colors" onclick="selectMapItem('Main Library Circulation Desk')" type="button">
+Locate on Map &amp; Directions
+</button>
+</div>
+</div>
+<!-- Hub 3: Student Union Info Desk -->
+<div class="bg-surface-container-low rounded-lg p-space-md border border-outline-variant/30 hover:border-secondary transition-colors flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md font-bold text-on-surface">Student Union Info Hub</span>
+<span class="inline-flex items-center gap-1 bg-primary text-on-primary text-[10px] font-label-xs font-bold px-2 py-0.5 rounded-full">
+Open until 9:00 PM
+</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mb-2">
+<span class="material-symbols-outlined text-[16px] text-secondary">place</span> Union Center · Room 102 Lobby
+</p>
+<div class="space-y-1 font-label-xs text-label-xs text-on-surface-variant border-t border-outline-variant/20 pt-2">
+<div class="flex items-center justify-between">
+<span>Staff on duty:</span>
+<span class="font-bold text-on-surface">Peer Assistant Jordan T.</span>
+</div>
+<div class="flex items-center justify-between">
+<span>Specialty:</span>
+<span class="text-primary font-medium">Water Bottles, Clothing, Gym Bags</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs">
+<button class="w-full text-center bg-surface-container hover:bg-surface-container-high text-primary font-label-xs text-label-xs font-bold py-1.5 rounded transition-colors" onclick="selectMapItem('Student Union Information Desk')" type="button">
+Locate on Map &amp; Directions
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- SAFE EXCHANGE FOOTNOTE / PROTOCOL -->
+<div class="bg-primary/5 rounded-xl p-space-md mb-space-lg shadow-sm border border-outline-variant/20">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0 font-bold text-xs">
+1
+</div>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Spatial Pinning &amp; Radius</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 text-xs">
+Items are tagged directly to campus zones with GPS/building room numbers to streamline physical recovery.
+</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0 font-bold text-xs">
+2
+</div>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">Blind Proof-of-Ownership</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 text-xs">
+Claimants must answer unique hidden details (lock screen, markings) before hand-off authorization.
+</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-tertiary-container text-on-tertiary-container flex items-center justify-center shrink-0 font-bold text-xs">
+3
+</div>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-on-surface">QR Code Dual Verification</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 text-xs">
+Both owner and drop-off desk scan reciprocal digital receipts to safely close out active reports.
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- MODAL 1: Claim Ownership Verification Flyout/Modal -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center bg-inverse-surface/60 backdrop-blur-sm p-space-md" id="claim-modal">
+<div class="bg-surface-container-lowest rounded-xl max-w-2xl w-full max-h-[921px] overflow-y-auto shadow-2xl p-space-lg transform transition-all animate-in fade-in zoom-in duration-200">
+<div class="flex items-start justify-between pb-space-sm mb-space-md">
+<div>
+<div class="inline-flex items-center gap-1 text-primary font-label-xs text-label-xs uppercase tracking-wider mb-1">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+Spatial Claim Verification
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Submit Private Ownership Claim</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1" id="modal-item-subtitle">
+Item: <span class="font-semibold text-on-surface" id="claim-item-name">Sony WH-1000XM4 Noise Canceling Headphones</span>
+</p>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface p-1 rounded-lg hover:bg-surface-container transition-colors" onclick="closeClaimModal()" type="button">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-lg mb-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">help_center</span>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+Provide identifying details <strong class="text-on-surface">not visible in public pins</strong> (e.g. wallpaper, specific scratches, serial sticker, or pocket contents) to protect students from false claims.
+</p>
+</div>
+</div>
+</div>
+<form class="space-y-space-md" id="claim-form" onsubmit="handleClaimSubmit(event)">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">
+Identifying Details &amp; Hidden Markers <span class="text-error">*</span>
+</label>
+<textarea class="w-full p-space-sm bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container outline-none transition-all" placeholder="Describe non-public identifiers: e.g. 'Inside headband has a faint blue ink dot near L hinge; lock screen is a golden retriever; sticker says ByteWorks 2024'..." required="" rows="3"></textarea>
+<span class="text-on-surface-variant font-label-xs text-label-xs mt-1 block">Reviewed securely by Campus Safety or registered drop-off desk officer.</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">
+Approximate Time / Date Lost <span class="text-error">*</span>
+</label>
+<input class="w-full p-space-sm bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container outline-none transition-all" placeholder="e.g. Friday Oct 11, around 2-4 PM" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">
+Student Contact Number
+</label>
+<input class="w-full p-space-sm bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container outline-none transition-all" placeholder="(555) 019-2834" type="tel"/>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-start gap-space-sm">
+<input class="mt-1 h-4 w-4 rounded text-primary focus:ring-primary-container" id="protocol-check" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface cursor-pointer" for="protocol-check">
+I agree to retrieve this item at the authorized <strong class="text-primary">Campus Security Safe Exchange Zone</strong> under student code of conduct.
+</label>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-sm">
+<button class="px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-colors" onclick="closeClaimModal()" type="button">
+Cancel
+</button>
+<button class="inline-flex items-center gap-space-xs bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md px-space-lg py-space-sm rounded-lg shadow-md transition-all active:scale-95" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Submit Claim Verification</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- MODAL 2: Report Lost/Found Spatial Intake -->
+<div class="fixed inset-0 z-50 hidden flex items-center justify-center bg-inverse-surface/60 backdrop-blur-sm p-space-md" id="report-modal">
+<div class="bg-surface-container-lowest rounded-xl max-w-xl w-full shadow-2xl p-space-lg">
+<div class="flex items-center justify-between pb-space-sm mb-space-md">
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold" id="report-modal-title">Pin &amp; Report an Item</h2>
+<button class="text-on-surface-variant hover:text-on-surface p-1 rounded-lg hover:bg-surface-container" onclick="closeReportModal()" type="button">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<div class="space-y-space-md">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">Item Title / Brand</label>
+<input class="w-full p-space-sm bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface outline-none focus:ring-2 focus:ring-primary-container" placeholder="e.g. Hydro Flask, AirPods Pro 2, Graphing Calculator" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">Campus Zone Pin</label>
+<select class="w-full p-space-sm bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface outline-none">
+<option>Main Library (Study Zones)</option>
+<option>Engineering Quad (Benches)</option>
+<option>Student Union (Lawn/Lobby)</option>
+<option>Science Complex (Auditorium)</option>
+<option>Dining Hall B (Food Court)</option>
+<option>Fountain Plaza Security Hub</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">Category</label>
+<select class="w-full p-space-sm bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface outline-none">
+<option>Electronics</option>
+<option>Student IDs &amp; Wallets</option>
+<option>Keys</option>
+<option>Books &amp; Notes</option>
+<option>Other</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">Public Description (Keep private marks confidential!)</label>
+<textarea class="w-full p-space-sm bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface outline-none focus:ring-2 focus:ring-primary-container" placeholder="Visible exterior description, location details..." rows="2"></textarea>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-xs">
+<button class="px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container" onclick="closeReportModal()" type="button">Cancel</button>
+<button class="bg-primary hover:bg-primary-container text-on-primary px-space-lg py-space-sm rounded-lg font-label-md text-label-md shadow-sm" onclick="submitReportSuccess()" type="button">Pin Item to Campus Map</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Toast Notification System -->
+<div class="fixed bottom-6 right-6 z-50 hidden bg-inverse-surface text-inverse-on-surface px-space-lg py-space-md rounded-xl shadow-xl flex items-center gap-space-sm transform transition-all duration-300" id="toast-message">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-[24px]">task_alt</span>
+<div>
+<h5 class="font-label-md text-label-md font-bold text-inverse-on-surface" id="toast-title">Spatial Filter Updated</h5>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/80" id="toast-body">Campus pin coordinates recalculated.</p>
+</div>
+</div>
+</div>
+<!-- Client Micro-Interactions Script -->
+<script>
+  let currentMapZoom = 1;
+
+  function switchMainTab(tabKey) {
+    const btnLost = document.getElementById('tab-btn-lost');
+    const btnFound = document.getElementById('tab-btn-found');
+    const btnClaims = document.getElementById('tab-btn-my-claims');
+    
+    [btnLost, btnFound, btnClaims].forEach(btn => {
+      btn.className = 'inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all';
+    });
+
+    if (tabKey === 'found') {
+      btnFound.className = 'inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary shadow-sm transition-all font-bold';
+      showToast('Found Items View', 'Displaying 19 campus items awaiting rightful owners.');
+    } else if (tabKey === 'lost') {
+      btnLost.className = 'inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary shadow-sm transition-all font-bold';
+      showToast('Lost Inquiries View', 'Displaying 14 active inquiries from students across campus grounds.');
+    } else {
+      btnClaims.className = 'inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary shadow-sm transition-all font-bold';
+      showToast('Personal Tracking', 'Showing your 2 active reported items and review statuses.');
+    }
+  }
+
+  function toggleSpatialLayout(mode) {
+    const mapBtn = document.getElementById('btn-toggle-map');
+    const gridBtn = document.getElementById('btn-toggle-grid');
+    const feedCol = document.getElementById('feed-column');
+    const mapCol = document.getElementById('map-column');
+    const feedList = document.getElementById('items-feed-list');
+
+    if (mode === 'grid') {
+      gridBtn.className = 'inline-flex items-center gap-1.5 px-space-md py-1.5 rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary shadow-sm font-bold transition-all';
+      mapBtn.className = 'inline-flex items-center gap-1.5 px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all';
+      
+      feedCol.className = 'lg:col-span-12 flex flex-col gap-space-sm';
+      mapCol.classList.add('hidden');
+      feedList.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md';
+      showToast('Grid Mode', 'Expanded high-density grid presentation.');
+    } else {
+      mapBtn.className = 'inline-flex items-center gap-1.5 px-space-md py-1.5 rounded-lg font-label-md text-label-md bg-surface-container-lowest text-primary shadow-sm font-bold transition-all';
+      gridBtn.className = 'inline-flex items-center gap-1.5 px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all';
+      
+      feedCol.className = 'lg:col-span-7 flex flex-col gap-space-sm order-2 lg:order-1';
+      mapCol.classList.remove('hidden');
+      feedList.className = 'space-y-space-sm';
+      showToast('Map Mode', 'Restored split spatial interactive explorer.');
+    }
+  }
+
+  function filterByCampusZone(zoneKey) {
+    const zoneNameMap = {
+      'all': 'Viewing: All Campus Grounds (33 Pins)',
+      'library': 'Filtered to: Main Library (11 Items)',
+      'quad': 'Filtered to: Engineering Quad (8 Items)',
+      'dining': 'Filtered to: Dining Hall B (5 Items)',
+      'union': 'Filtered to: Student Union (6 Items)',
+      'science': 'Filtered to: Science Complex (3 Items)',
+      'security': 'Filtered to: Fountain Plaza Security Vault (11 Items)'
+    };
+    
+    document.getElementById('selected-zone-name').innerText = zoneNameMap[zoneKey] || 'All Campus Grounds';
+    
+    const items = document.querySelectorAll('#items-feed-list > div');
+    let visibleCount = 0;
+    items.forEach(card => {
+      const cardZone = card.getAttribute('data-zone');
+      if (zoneKey === 'all' || cardZone === zoneKey) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    document.getElementById('feed-count-badge').innerText = `${visibleCount} Filtered Nearby`;
+    showToast('Zone Filter Applied', `Showing pins for ${zoneKey.toUpperCase()}.`);
+  }
+
+  function highlightPinOnMap(pinId) {
+    const pin = document.getElementById(pinId);
+    if (pin) {
+      pin.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      pin.classList.add('scale-125');
+      setTimeout(() => pin.classList.remove('scale-125'), 1200);
+      showToast('Map Coordinates Focused', 'Building cluster pin highlighted on explorer canvas.');
+    }
+  }
+
+  function selectMapItem(label) {
+    showToast('Zone Selected', `Active sector: ${label}`);
+  }
+
+  function filterRadius(rad) {
+    showToast('Radius Updated', `Explorer boundaries adjusted to: ${rad}`);
+  }
+
+  function zoomInMap() {
+    currentMapZoom = Math.min(1.4, currentMapZoom + 0.1);
+    document.getElementById('campus-svg').style.transform = `scale(${currentMapZoom})`;
+  }
+
+  function zoomOutMap() {
+    currentMapZoom = Math.max(0.8, currentMapZoom - 0.1);
+    document.getElementById('campus-svg').style.transform = `scale(${currentMapZoom})`;
+  }
+
+  function resetMapZoom() {
+    currentMapZoom = 1;
+    document.getElementById('campus-svg').style.transform = 'scale(1)';
+    filterByCampusZone('all');
+  }
+
+  function openClaimModal(itemName, location, category, date) {
+    document.getElementById('claim-item-name').innerText = itemName;
+    document.getElementById('modal-item-subtitle').innerHTML = `Item: <strong class="text-on-surface">${itemName}</strong> (${category} · ${location} · ${date})`;
+    const modal = document.getElementById('claim-modal');
+    modal.classList.remove('hidden');
+  }
+
+  function closeClaimModal() {
+    document.getElementById('claim-modal').classList.add('hidden');
+  }
+
+  function openFoundMatchModal(itemName) {
+    showToast('Hand-off Initiated', `Connecting you with the verified owner of ${itemName}. Vault drop protocol opened.`);
+  }
+
+  function openReportModal(type) {
+    const modal = document.getElementById('report-modal');
+    const title = document.getElementById('report-modal-title');
+    if (type === 'lost') {
+      title.innerText = 'Pin & Report a Lost Item';
+    } else {
+      title.innerText = 'Pin & Report a Found Item';
+    }
+    modal.classList.remove('hidden');
+  }
+
+  function closeReportModal() {
+    document.getElementById('report-modal').classList.add('hidden');
+  }
+
+  function submitReportSuccess() {
+    closeReportModal();
+    showToast('Pin Placed', 'Item registered and anchored to campus spatial discovery coordinates.');
+  }
+
+  function handleClaimSubmit(e) {
+    e.preventDefault();
+    closeClaimModal();
+    showToast('Claim Verification Submitted', 'Your identifying clues have been routed for blind validation. Check notification tab for update.');
+  }
+
+  function showToast(title, msg) {
+    const toast = document.getElementById('toast-message');
+    document.getElementById('toast-title').innerText = title;
+    document.getElementById('toast-body').innerText = msg;
+    toast.classList.remove('hidden');
+    setTimeout(() => {
+      toast.classList.add('hidden');
+    }, 3800);
+  }
+
+  // Interactive Category Filter Pills
+  document.querySelectorAll('.category-pill').forEach(pill => {
+    pill.addEventListener('click', function() {
+      document.querySelectorAll('.category-pill').forEach(p => {
+        p.classList.remove('bg-primary', 'text-on-primary', 'active');
+        p.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+      });
+      this.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+      this.classList.add('bg-primary', 'text-on-primary', 'active');
+    });
+  });
+</script></div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(30,27,75,0.03)] mt-space-xl py-space-lg"><div class="max-w-7xl mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant"><div class="flex items-center gap-space-xs"><img alt="CampusOS Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsVYYffMrXhoWipSUM7fwfjA-KPxh8EEA_VvMXgsiPnc3_HPvV63Jjq0IZ6KKijUfuWtkhptsEUqfDSgwzYKC3BTCPJrDibkLOurSYndaUc5SnwCVFPSdsi--00NqGuZ2-tqGmeMR_Cf9KyNX8GgD7zqHfFhwtXkukEnubYoVQe-lMi-grpeEF3pURpYJ-Qkuj6yk3AtR0MXcpfjTETOcnfCYC8ExrToO3RAXgQRZNvp-TRcIjMew"/><span class="font-label-md text-label-md text-on-surface">CampusOS</span><span class="font-body-sm text-body-sm">© 2025 State University. All rights reserved.</span></div><div class="flex items-center gap-space-lg font-label-xs text-label-xs"><a class="hover:text-primary transition-colors" href="#">Academic Calendar</a><a class="hover:text-primary transition-colors" href="#">Student Portal Support</a><a class="hover:text-primary transition-colors" href="#">Campus Safety &amp; Alerts</a></div></div></footer></body></html>
